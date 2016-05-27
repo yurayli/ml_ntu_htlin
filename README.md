@@ -45,11 +45,11 @@
   - Matrix factorization
 
 
-Course website: 
-https://www.coursera.org/course/ntumlone
+Course website:  
+https://www.coursera.org/course/ntumlone  
 https://www.coursera.org/course/ntumltwo
 
-Course slides:
+Course slides:  
 http://www.csie.ntu.edu.tw/~htlin/mooc/
 
 
