@@ -1,6 +1,6 @@
 ## Machine Learning course by prof. H.T. Lin on Coursera
 
-#### Course work outline
+### Course work outline
 
 
 #### ML Foundations
