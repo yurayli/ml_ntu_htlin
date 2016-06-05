@@ -17,6 +17,11 @@ class Layer:
 		
 		
 class Network:
+## Input arguments:
+## 		l_neurons = list of neurons of each layer, 
+## 		m = number of examples, r = bound of initialized weights
+## 		X = features, y = labels, eta = learning rate
+## self.layers = list of each layer within the NN
 
 	def __init__(self, l_neurons, m, r):
 		self.layers = []
