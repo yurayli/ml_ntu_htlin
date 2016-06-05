@@ -179,7 +179,6 @@ for exp = 1:50
 		grad3 = hidden2' * delH;
 		grad2 = hidden1' * delHidden2(:, 2:end);
 		grad1 = X' * delHidden1(:, 2:end);
-		
 		%
 		w1 = w1 - eta * grad1;
 		w2 = w2 - eta * grad2;
@@ -197,7 +196,7 @@ for exp = 1:50
 	Eout = mean(double(ypred ~= ytest));
 	Eout_arr = [Eout_arr Eout];
 end
-toc  % 109.399 sec in MATLAB, 452.447 sec in Octave
+toc  % 92.237 sec in MATLAB R2016a, 452.447 sec in Octave
 fprintf('Averaged Eout: %d \n\n', mean(Eout_arr))  % avg Eout = 0.03632
 
 end
