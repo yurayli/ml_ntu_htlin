@@ -1,5 +1,5 @@
 ## Machine Learning course by prof. H.T. Lin on Coursera
-
+(implemented in R)
 ### Course work outline
 
 
